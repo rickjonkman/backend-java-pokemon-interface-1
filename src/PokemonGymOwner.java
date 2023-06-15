@@ -5,7 +5,7 @@ public class PokemonGymOwner extends PokemonTrainer {
     private String town;
     private List<Pokemon> pokemons;
 
-    public PokemonGymOwner(String name, String town, List<Pokemon> pokemons) {
-        super(name, town, pokemons);
+    public PokemonGymOwner(String name, List<Pokemon> pokemons) {
+        super(name, pokemons);
     }
 }

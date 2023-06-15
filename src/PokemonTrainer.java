@@ -5,9 +5,8 @@ public class PokemonTrainer {
     private String town;
     private List<Pokemon> pokemons;
 
-    public PokemonTrainer(String name, String town, List<Pokemon> pokemons) {
+    public PokemonTrainer(String name, List<Pokemon> pokemons) {
         this.name = name;
-        this.town = town;
         this.pokemons = pokemons;
     }
 
