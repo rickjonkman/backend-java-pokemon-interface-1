@@ -1,5 +1,6 @@
 import java.util.List;
 
+// INTERFACE MET TRAINER OPTIES
 public interface PokemonGym {
     void enteredTheGym(PokemonTrainer player1);
 
